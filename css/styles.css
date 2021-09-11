@@ -3,6 +3,7 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size:  calc(14px + 1vw);
+    overflow-x: hidden;
 }
 .top-container {
     width: 100%;
@@ -138,10 +139,6 @@ a {
 
 @media (max-width:1000px) {
 
-    body {
-        overflow-x: hidden;
-    }
-
     .bottom-cloud {
         top: 560px;
         left: 40px;
@@ -155,18 +152,13 @@ a {
     }
     .mountain {
         position: relative;
-        right: 7vw;
         margin: auto;
-        width: calc(100vw + 50px);
+        width: 100vw;
         z-index: 0;
     }
 }
 
 @media (max-width:600px) {
-
-    body {
-        overflow-x: hidden;
-    }
 
     .bottom-cloud {
         top: 360px;
@@ -181,9 +173,8 @@ a {
     }
     .mountain {
         position: relative;
-        right: 7vw;
         margin: auto;
-        width: calc(100vw + 50px);
+        width: 100vw;
         z-index: 0;
     }
     .skill-row {
