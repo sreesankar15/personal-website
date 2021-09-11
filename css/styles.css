@@ -2,7 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size:  16px;
+    font-size:  calc(14px + 1vw);
 }
 .top-container {
     width: 100%;
@@ -11,7 +11,7 @@ body {
     background-color: #E4F9F5;
 }
 h1 {
-    font-size: 80px;
+    font-size: calc(8vw + 20px);
     color: #239b9b;
     margin-top: 50px;
     font-family: 'Sacramento';
@@ -20,7 +20,7 @@ h1 {
 h2 {
     color: #39afaf;
     font-weight: normal;
-    font-size: 32px;
+    font-size: calc(2.75vw + 18px);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -39,17 +39,13 @@ h3 {
     top: 50px;
 }
 
-.th {
-    font-size: 60%;
-    position: relative;
-    bottom: 3.5px;
-}
 
 .bottom-cloud {
     position: absolute;
     left: 300px;
     bottom: 300px;
 }
+
 .sreesankar {
     margin-top: 40px;
     width: 250px;
@@ -59,7 +55,7 @@ h3 {
 .skill-row {
     line-height: 2;
     text-align: left;
-    width: 70vw;
+    width: 50vw;
     margin: 7.9936051159072745vw auto;
 }
 
@@ -131,4 +127,60 @@ a {
     padding: 0;
     line-height: 0;
     color:azure;
+}
+
+
+@media (max-width:1000px) {
+    .bottom-cloud {
+        top: 560px;
+        left: 40px;
+        width:190px;
+        z-index: 1;
+    }
+    .top-cloud {
+        top: 117.5px;
+        right: 10px;
+        width:170px;
+    }
+    .mountain {
+        position: relative;
+        right: 7vw;
+        margin: auto;
+        width: calc(100vw + 50px);
+        z-index: 0;
+    }
+}
+
+@media (max-width:600px) {
+    .bottom-cloud {
+        top: 360px;
+        left: 40px;
+        width:140px;
+        z-index: 1;
+    }
+    .top-cloud {
+        top: 117.5px;
+        right: 10px;
+        width:120px;
+    }
+    .mountain {
+        position: relative;
+        right: 7vw;
+        margin: auto;
+        width: calc(100vw + 50px);
+        z-index: 0;
+    }
+    .skill-row {
+        width:90vw;
+    }
+    .profile {
+        margin: 0 auto;
+        width: 80vw;
+    }
+    p {
+        font-size: 80%;
+    }
+    .sreesankar {
+        width: 70%;
+    }
 }
