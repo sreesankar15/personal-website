@@ -59,6 +59,11 @@ h3 {
     margin: 7.9936051159072745vw auto;
 }
 
+.profile {
+    margin: 0 auto;
+    width: 80vw;
+}
+
 .python-logo {
     width: 14.876826722338205vw;
     float: left;
@@ -132,6 +137,11 @@ a {
 
 
 @media (max-width:1000px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     .bottom-cloud {
         top: 560px;
         left: 40px;
@@ -153,6 +163,11 @@ a {
 }
 
 @media (max-width:600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     .bottom-cloud {
         top: 360px;
         left: 40px;
