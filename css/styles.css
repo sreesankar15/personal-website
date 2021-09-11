@@ -109,20 +109,21 @@ hr {
 a {
     margin:10px;
     font-size: 1.3rem;
-    color: #b0b0b0;
+    color: #cccbcb;
     border-bottom: 2px solid #c3c3c3;
     text-decoration: none;
 }
 
 .bottom-container {
 
-    line-height: 220px;
-    height: 290px;
+    line-height: 16vh;
+    height: 20vh;
     text-align: center;
     background-color: rgb(67, 78, 78);
 }
 
 .copy-right {
+    font-size: 15px;
     margin: 0;
     padding: 0;
     line-height: 0;
