@@ -5,7 +5,7 @@ body {
     font-size:  16px;
 }
 .top-container {
-    width: 110vw;
+    width: 100%;
     padding-top: 100px;
     position: relative;
     background-color: #E4F9F5;
@@ -28,13 +28,6 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.middle-container {
-
-}
-
-.bottom-container {
-
-}
 
 .pro {
     text-decoration: underline;
@@ -66,7 +59,7 @@ h3 {
 .skill-row {
     line-height: 2;
     text-align: left;
-    width: 50%;
+    width: 70vw;
     margin: 7.9936051159072745vw auto;
 }
 
@@ -126,6 +119,7 @@ a {
 }
 
 .bottom-container {
+
     line-height: 220px;
     height: 290px;
     text-align: center;
@@ -135,7 +129,6 @@ a {
 .copy-right {
     margin: 0;
     padding: 0;
-    height: fit-content;
     line-height: 0;
     color:azure;
 }
