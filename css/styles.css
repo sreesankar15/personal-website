@@ -4,6 +4,7 @@ body {
     font-family: 'Merriweather', serif;
     font-size:  calc(20px + 0.25vw);
     overflow-x: hidden;
+    min-width: 325px;
 }
 .top-container {
     width: 100%;
@@ -122,8 +123,8 @@ hr {
 }
 
 a {
-    margin:10px;
-    font-size: 1.3rem;
+    margin:calc(10px + 0.3vw);
+    font-size: calc(10px + 0.6vw);
     color: #cccbcb;
     border-bottom: 2px solid #c3c3c3;
     text-decoration: none;
@@ -131,16 +132,16 @@ a {
 
 .bottom-container {
 
-    line-height: 16vh;
-    height: 20vh;
+    line-height:calc(15px + 10vw);
+    height: 16vw;
     text-align: center;
     background-color: rgb(67, 78, 78);
 }
 
 .copy-right {
-    font-size: 15px;
+    font-size: calc(10px + 0.5vw);
     margin: 0;
-    padding: 0;
+    padding: 2px 0;
     line-height: 0;
     color:azure;
 }
@@ -168,6 +169,14 @@ a {
         margin: auto;
         width: 100vw;
         z-index: 0;
+    }
+
+    .bottom-container {
+        height: 17vw;
+    }
+
+    .copy-right {
+    font-size: 13px;
     }
 }
 
