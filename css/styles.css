@@ -57,8 +57,8 @@ h3 {
 }
 
 .sreesankar {
-    margin-top: 40px;
-    width: 250px;
+    margin-top: 3vw;
+    width: 17vw;
     border-radius: 50%;
 }
 
@@ -76,23 +76,24 @@ h3 {
 }
 
 .python-logo {
-    width: 14.876826722338205vw;
+    width: 10.876826722338205vw;
     float: left;
     margin-right: 35px;
 }
 
 .www-logo {
-    width: 14.876826722338205vw;
+    width: 10.876826722338205vw;
     float: right;
     margin-left: 35px;
 }
 
 hr {
   margin: 60px auto;
-  width: 12%;
-  border: 8px dotted;
+    
+  width: 6%;
+  border: 10px dotted;
   border-style: none none dotted;
-  color: #d3dada
+  color: #dadad3
 }
 
 .btn {
