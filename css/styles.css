@@ -2,7 +2,8 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size:  calc(20px + 0.25vw);
+    font-size:  1.3rem;
+    line-height: 145%;
     overflow-x: hidden;
     min-width: 325px;
 }
@@ -13,7 +14,7 @@ body {
     background-color: #E4F9F5;
 }
 h1 {
-    font-size: calc(6vw + 20px);
+    font-size: 6rem;
     color: #239b9b;
     margin: 10px 0 0 0;
     font-family: 'Sacramento';
@@ -22,7 +23,7 @@ h1 {
 h2 {
     color: #39afaf;
     font-weight: normal;
-    font-size: calc(1.75vw + 18px);
+    font-size: 3rem;
     margin: 1% 4%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -58,7 +59,7 @@ h3 {
 
 .sreesankar {
     margin-top: 3vw;
-    width: 17vw;
+    width: 300px;
     border-radius: 50%;
 }
 
@@ -150,9 +151,18 @@ a {
 
 @media (max-width:1000px) {
 
-    p {
-        font-size: 22px;
+    .skill-row {
+        width: 70vw;
     }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 2.3rem ;
+    }
+
     
     .bottom-cloud {
         top: 70%;
@@ -183,8 +193,16 @@ a {
 
 @media (max-width:600px) {
 
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
     p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .bottom-cloud {
@@ -203,9 +221,15 @@ a {
         width: 100vw;
         z-index: 0;
     }
+
     .skill-row {
-        width:90vw;
+        width:85vw;
     }
+
+    .python-logo, .www-logo {
+        width: 75px;
+    }
+
     .profile {
         margin: 0 auto;
         width: 80vw;
